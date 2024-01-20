@@ -39,4 +39,4 @@ _Last Updated: January 19, 2024_
 
 # About Me!
 
-I'm interested in the Blockchain, Time-Space Complexity, Quantum Computing, and Scalability while Securing (and validating) value through Digital Assets. I have worked under pressure in various fast-paced fields (TO DO: list them) while delivering results, keeping up communication, and juggling priorities and deadlines. I strongly believe in "if you want to go fast, go alone. If you want to go far, go together."
+I'm interested in the Blockchain, Time-Space Complexity, Quantum Computing, and Scalability while Securing (and validating) value through Digital Assets. I have worked under pressure in various fast-paced fields -- the food industry, customer service, fitness & health, real estate, big tech companies, and startups -- while delivering results, keeping up communication, and juggling priorities and deadlines. I strongly believe in "if you want to go fast, go alone. If you want to go far, go together."
