@@ -1,8 +1,13 @@
-# Welcome!
-
 _Last Updated: January 19, 2024_
 
-I'm interested in the blockchain, time-space complexity, quantum computing, and scalability while securing/validating value through digital assets and means. I have worked under pressure in various fast-paced fields (TO DO: list them) while delivering results, keeping up communication, and juggling priorities and deadlines. I strongly believe in "if you want to go fast, go alone. If you want to go far, go together."
+# Welcome!
+
+**_tldr;_**
++ blockchain
+  + bitcoin
+  + ethereum
++ dimensional math
++ quantum mechanics
 
 <div align="center" justify-content="space-between">
       <div>
@@ -31,3 +36,7 @@ I'm interested in the blockchain, time-space complexity, quantum computing, and 
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gatsby/gatsby-original-wordmark.svg" height="100" width="100" alt="gatsby" />
       </div>
     </div>
+
+# About Me!
+
+I'm interested in the Blockchain, Time-Space Complexity, Quantum Computing, and Scalability while Securing (and validating) value through Digital Assets. I have worked under pressure in various fast-paced fields (TO DO: list them) while delivering results, keeping up communication, and juggling priorities and deadlines. I strongly believe in "if you want to go fast, go alone. If you want to go far, go together."
