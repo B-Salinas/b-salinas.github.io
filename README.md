@@ -2,13 +2,6 @@ _Last Updated: January 19, 2024_
 
 # Welcome!
 
-**_tldr;_**
-+ blockchain
-  + bitcoin
-  + ethereum
-+ dimensional math
-+ quantum mechanics
-
 <div align="center" justify-content="space-between">
       <div>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="100" width="50" alt="python" /> &nbsp;
@@ -37,6 +30,75 @@ _Last Updated: January 19, 2024_
       </div>
     </div>
 
+**_tldr;_**
++ blockchain
+  + bitcoin
+  + ethereum
++ dimensional math
++ quantum mechanics
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+Oh good, you're still here!
 # About Me!
 
 I'm interested in the Blockchain, Time-Space Complexity, Quantum Computing, and Scalability while Securing (and validating) value through Digital Assets. I have worked under pressure in various fast-paced fields -- the food industry, customer service, fitness & health, real estate, big tech companies, and startups -- while delivering results, keeping up communication, and juggling priorities and deadlines. I strongly believe in "if you want to go fast, go alone. If you want to go far, go together."
