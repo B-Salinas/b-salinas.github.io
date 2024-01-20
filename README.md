@@ -1,6 +1,6 @@
 # Welcome!
 
-_Last Updated: January 15, 2024_
+_Last Updated: January 19, 2024_
 
 I'm interested in the blockchain, time-space complexity, quantum computing, and scalability while securing/validating value through digital assets and means. I have worked under pressure in various fast-paced fields (TO DO: list them) while delivering results, keeping up communication, and juggling priorities and deadlines. I strongly believe in "if you want to go fast, go alone. If you want to go far, go together."
 
