@@ -1,6 +1,6 @@
 _Last Updated: January 21, 2024_
 
-# Welcome!
+## Welcome!
 <div align="center" justify-content="space-between">
       <div>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="100" width="50" alt="python" /> &nbsp;
@@ -102,9 +102,7 @@ Feel free to drop me an [**email**](mailto:b.salinas397@gmail.com) ☻ or reach 
 . <br />
 . <br />
 . <br />
-<br />
 
-Oh, you're still here!
 # About Me!
 
 My name is B███ Salinas.
@@ -115,13 +113,13 @@ I graduated from [St. Edward's University](https://www.stedwards.edu/) with a ma
 
 I was a research and teaching assistant throughout college and spent my summers working for [BEAM](https://www.beammath.org/). After I graduated, I was lost and working in local goverment. COVID-19 shut the world down and I re-evaluated (thankfully, I had looked into software engineering bootcamps when I first started with the County). I ended up academically failing out of [App Academy](https://www.appacademy.io/) on week 24 of 24. 
 
-I learned _a lot_ during those 10-months.
-
-> These were my projects at App Academy:
+> These were my projects:
 > + 1st Group Project: [Veni, Vidi, Voravi](https://github.com/rsdimatulac/Veni-Vidi-Voravi) with [S.S.](https://github.com/ssmall1), [R.D.](https://github.com/rsdimatulac), and [D.K.](https://github.com/hye-kim)
 > + 1st Solo Project: [SoundTrack](https://github.com/B-Salinas/SoundTrack)
 > + 2nd Group Project: [thrifTEE](https://github.com/vmeduri1/thrifTEE) with [V.M.](https://github.com/vmeduri1), [J.C.](https://github.com/Jc-008), and [N.O.](https://github.com/natoh19)
 > + Final/Capstone Solo Project: [YGO Duel Academy Deck Builder](https://github.com/B-Salinas/YGO-Duel-Academy-Deck-Builder)
+
+I learned _a lot_ during those 10-months ☻
 
 # Experience
 Since then, I've held jobs in:
@@ -150,11 +148,72 @@ Here's a short run down of my latest positions.
 
 > I was hit with both the 2022 and 2023 Layoffs in Tech. That really shook my spirit for a minute.
 
-I'm grateful for every job I've held and what each position has taught me. 
+I'm grateful for every job I've held and what each position has taught me! ☺︎
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+. <br />
+. <br />
+. <br />
 
+still there? <br />
 
-# Now what?
-[❑](https://github.com/B-Salinas/QUBE)
-
-
+<a href="https://github.com/B-Salinas/QUBE"> ❑ </a>
