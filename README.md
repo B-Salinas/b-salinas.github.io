@@ -1,7 +1,7 @@
-_Last Updated: January 20, 2024_
+_Last Updated: January 21, 2024_
 
 # Welcome!
-
+**_tldr;_** —  really good with these
 <div align="center" justify-content="space-between">
       <div>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="100" width="50" alt="python" /> &nbsp;
@@ -29,12 +29,17 @@ _Last Updated: January 20, 2024_
       </div>
     </div>
 
-**_tldr;_**
+
+**_tldr;_** —  what I'm making a career out of
 + blockchain
   + bitcoin
   + ethereum
 + dimensional math
-+ quantum mechanics
+  + linear algebra
+  + matrix manipulation
++ quantum AI
+
+Feel free to drop me an [**email**](mailto:b.salinas397@gmail.com) ☻ or reach out on [**linkedin**](linkedin.com/in/b-salinas) ☺︎
 
 <br />
 <br />
@@ -101,15 +106,57 @@ _Last Updated: January 20, 2024_
 . <br />
 <br />
 
-Oh good, you're still here!
+Oh, you're still here!
 # About Me!
 
-My name is B Salinas, the B is short for ████.
+My name is B███ Salinas.
 
-I graduated with a math degree from [St. Edward's University](https://www.stedwards.edu/) and I was a D-student the entire time (with the transcripts to [prove it](https://github.com/B-Salinas/b-salinas.github.io/blob/main/2019-05-Salinas-UnofficialTranscript.pdf)). 
+I graduated from [St. Edward's University](https://www.stedwards.edu/) with a math degree and I was a D-student the entire time — with the transcripts to [prove it](/2019-05-Salinas-UnofficialTranscript.pdf). 
 
-**Fun Fact:** I've never been any good at math, but once you've seen the invisible threads that's holding everything together, you can't unsee it. It is divinely and chaotically beautiful.
+> I've never been any good at math, but once you've seen the invisible threads that's holding everything together, you can't unsee it. It is divinely and chaotically beautiful.
 
-...
+I was a research and teaching assistant throughout college and spent my summers working for [BEAM](https://www.beammath.org/). After I graduated, I was lost and working in local goverment. COVID-19 shut the world down and I re-evaluated (thankfully, I had looked into software engineering bootcamps when I first started with the County). I ended up academically failing out of [App Academy](https://www.appacademy.io/) on week 24 of 24. 
 
-I'm interested in the Blockchain, Time-Space Complexity, Quantum Computing, and Scalability while Securing (and validating) value through Digital Assets. I have worked under pressure in various fast-paced fields -- the food industry, customer service, fitness & health, real estate, big tech companies, and startups -- while delivering results, keeping up communication, and juggling priorities and deadlines. I strongly believe in "if you want to go fast, go alone. If you want to go far, go together."
+I learned _a lot_ during those 10-months.
+
+> These were my projects at App Academy:
+> + 1st Group Project: [Veni, Vidi, Voravi](https://github.com/rsdimatulac/Veni-Vidi-Voravi) with [S.S.](https://github.com/ssmall1), [R.D.](https://github.com/rsdimatulac), and [D.K.](https://github.com/hye-kim)
+> + 1st Solo Project: [SoundTrack](https://github.com/B-Salinas/SoundTrack)
+> + 2nd Group Project: [thrifTEE](https://github.com/vmeduri1/thrifTEE) with [V.M.](https://github.com/vmeduri1), [J.C.](https://github.com/Jc-008), and [N.O.](https://github.com/natoh19)
+> + Final/Capstone Solo Project: [YGO Duel Academy Deck Builder](https://github.com/B-Salinas/YGO-Duel-Academy-Deck-Builder)
+
+# Experience
+Since then, I've held jobs in:
++ Insurance
++ Finances + Wealth Management
++ Real Estate
++ Start Ups
++ Big Tech Companies
++ Food Industry
++ Customer Service
+
+Here's a short run down of my latest positions.
+
+| Year | Job Title | Company | Location | 
+|------|-----------|---------|----------|
+| **2024** | Web Developer | Manhattan Beach Advisors | Austin, TX (Remote) |
+| **2024** | Front Desk Associate | Gold's Gym | Edinburg, TX |
+| 2023 | Cashier | Bahn Mi Galang | Austin, TX |
+| 2023 | Cashier | H-Mart | Austin, TX |
+| 2023 | QA Analyst I | TEKSystems (Meta) | Austin, TX (Hybrid) |
+| 2022 | Dishwasher | H-Mart | Austin, TX |
+| 2022 | Quality Assurance Engineer | Ender | Austin, TX (Hybrid) |
+| 2022 | Software Engineer in Test | Capgemini (Allianz Insurance) | Edinburg, TX (Remote) | 
+| 2022 | Front Desk Associate | Gold's Gym | Edinburg, TX |
+| 2022 | Sorter | Bodego Jackson | Edinburg, TX |
+
+> I was hit with both the 2022 and 2023 Layoffs in Tech. That really shook my spirit for a minute.
+
+I'm grateful for every job I've held and what each position has taught me. 
+
+
+
+# Now what?
+[❑](https://github.com/B-Salinas/QUBE)
+
+
