@@ -1,4 +1,4 @@
-_Last Updated: January 19, 2024_
+_Last Updated: January 20, 2024_
 
 # Welcome!
 
@@ -96,8 +96,20 @@ _Last Updated: January 19, 2024_
 <br />
 <br />
 <br />
+. <br />
+. <br />
+. <br />
+<br />
 
 Oh good, you're still here!
 # About Me!
+
+My name is B Salinas, the B is short for ████.
+
+I graduated with a math degree from [St. Edward's University](https://www.stedwards.edu/) and I was a D-student the entire time (with the transcripts to [prove it]()). 
+
+**Fun Fact:** I've never been any good at math, but once you've seen the invisible threads that's holding everything together, you can't unsee it. It is divinely and chaotically beautiful.
+
+...
 
 I'm interested in the Blockchain, Time-Space Complexity, Quantum Computing, and Scalability while Securing (and validating) value through Digital Assets. I have worked under pressure in various fast-paced fields -- the food industry, customer service, fitness & health, real estate, big tech companies, and startups -- while delivering results, keeping up communication, and juggling priorities and deadlines. I strongly believe in "if you want to go fast, go alone. If you want to go far, go together."
