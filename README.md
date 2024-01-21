@@ -15,7 +15,6 @@ _Last Updated: January 19, 2024_
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="100" width="50" alt="nodejs" /> &nbsp;
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" height="100" width="50" alt="postgresql" /> &nbsp;
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="100" width="50" alt="react" /> &nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" height="100" width="45" alt="redux" /> &nbsp;
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" height="100" width="50" alt="bootstrap" /> &nbsp;
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original-wordmark.svg" height="100" width="50" alt="threejs" />
       </div>
