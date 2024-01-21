@@ -106,7 +106,7 @@ Oh good, you're still here!
 
 My name is B Salinas, the B is short for ████.
 
-I graduated with a math degree from [St. Edward's University](https://www.stedwards.edu/) and I was a D-student the entire time (with the transcripts to [prove it]()). 
+I graduated with a math degree from [St. Edward's University](https://www.stedwards.edu/) and I was a D-student the entire time (with the transcripts to [prove it](https://github.com/B-Salinas/b-salinas.github.io/blob/main/2019-05-Salinas-UnofficialTranscript.pdf)). 
 
 **Fun Fact:** I've never been any good at math, but once you've seen the invisible threads that's holding everything together, you can't unsee it. It is divinely and chaotically beautiful.
 
