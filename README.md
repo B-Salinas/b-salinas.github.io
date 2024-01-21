@@ -1,7 +1,6 @@
 _Last Updated: January 21, 2024_
 
 # Welcome!
-**_tldr;_** —  really good with these
 <div align="center" justify-content="space-between">
       <div>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="100" width="50" alt="python" /> &nbsp;
@@ -36,7 +35,6 @@ _Last Updated: January 21, 2024_
   + ethereum
 + dimensional math
   + linear algebra
-  + matrix manipulation
 + quantum AI
 
 Feel free to drop me an [**email**](mailto:b.salinas397@gmail.com) ☻ or reach out on [**linkedin**](linkedin.com/in/b-salinas) ☺︎
