@@ -37,7 +37,7 @@ _Last Updated: January 21, 2024_
   + linear algebra
 + quantum AI
 
-Feel free to drop me an [**email**](mailto:b.salinas397@gmail.com) ☻ or reach out on [**linkedin**](linkedin.com/in/b-salinas) ☺︎
+Feel free to drop me an [**email**](mailto:b.salinas397@gmail.com) ☻ or reach out on [**linkedin**](https://www.linkedin.com/in/b-salinas/) ☺︎
 
 <br />
 <br />
