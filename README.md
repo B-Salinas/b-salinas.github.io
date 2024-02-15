@@ -1,117 +1,53 @@
-_Last Updated: January 22, 2024_
-
-## Welcome!
+_Last Updated: February 14, 2024_
 <div align="center" justify-content="space-between">
       <div>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="100" width="50" alt="python" /> &nbsp;
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" height="100" width="50" alt="python" /> &nbsp;
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="100" width="50" alt="javascript" /> &nbsp;
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" height="100" width="50" alt="html5" /> &nbsp;
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" height="100" width="50" alt="css3" /> &nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="100" width="50" alt="bash" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" height="100" width="65" alt="git" /> &nbsp;
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="100" width="50" alt="bash" /> &nbsp;
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" height="100" width="55" alt="nodejs" /> &nbsp;
       </div>
       <div>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" height="100" width="50" alt="git" /> &nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="100" width="50" alt="nodejs" /> &nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" height="100" width="50" alt="postgresql" /> &nbsp;
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="100" width="50" alt="react" /> &nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" height="100" width="50" alt="bootstrap" /> &nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original-wordmark.svg" height="100" width="50" alt="threejs" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" height="100" width="50" alt="redux" /> &nbsp;
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" height="100" width="50" alt="bootstrap" /> &nbsp;
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original-wordmark.svg" height="100" width="60" alt="threejs" /> &nbsp;
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="100" width="50" alt="figma" /> &nbsp;
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" height="100" width="50" alt="markdown" /> &nbsp;   
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" height="100" width="50" alt="latex" /> &nbsp;
       </div>
       <div>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="100" width="75" alt="amazon web services" /> &nbsp;
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="100" width="50" alt="AWS" /> &nbsp;
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" height="100" width="50" alt="docker" /> &nbsp;
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original-wordmark.svg" height="100" width="50" alt="heroku" /> &nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gatsby/gatsby-original-wordmark.svg" height="100" width="100" alt="gatsby" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gatsby/gatsby-original-wordmark.svg" height="100" width="100" alt="gatsby" /> &nbsp;
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original-wordmark.svg" height="100" width="65" alt="flask" /> &nbsp;
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" height="100" width="65" alt="express" /> &nbsp;
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" height="100" width="50" alt="postgresql" /> &nbsp;  
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sequelize/sequelize-original.svg" height="100" width="50" alt="sequelize" /> &nbsp;  
       </div>
     </div>
 
-
-**_tldr;_** —  what I'm making a career out of
-+ blockchain
-  + bitcoin
-  + ethereum
-+ dimensional math
-  + linear algebra
-+ quantum AI
+- 10 years of mathematics
+- 4 years of full-stack software development
+- 2 years of quality assurance
+- 1.5 years of blockchain development
 
 Feel free to drop me an [**email**](mailto:b.salinas397@gmail.com) ☻ or reach out on [**linkedin**](https://www.linkedin.com/in/b-salinas/) ☺︎
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 . <br />
 . <br />
 . <br />
 
 # About Me!
 
-My name is B███ Salinas.
+I'm known to many as simply "B" - a childhood nickname that has stuck throughout my professional career.
 
-I graduated from [St. Edward's University](https://www.stedwards.edu/) with a math degree and I was a D-student the entire time — with the transcripts to [prove it](/2019-05-Salinas-UnofficialTranscript.pdf). 
+I graduated from St. Edward's University with a B.S. in Mathematics. While I've always loved math theoricially, I was not the greatest when it came down to putting pencil to paper - just take a look at my [transcripts](/2019-05-Salinas-UnofficialTranscript.pdf). 
 
-> I've never been any good at math, but once you've seen the invisible threads that's holding everything together, you can't unsee it. It is divinely and chaotically beautiful.
-
-I was a research and teaching assistant throughout college and spent my summers working for [BEAM](https://www.beammath.org/). After I graduated, I was lost and working in local goverment. COVID-19 shut the world down and I re-evaluated (thankfully, I had looked into software engineering bootcamps when I first started with the County). I ended up academically failing out of [App Academy](https://www.appacademy.io/) on week 24 of 24. 
+I was a research and teaching assistant throughout college and spent my summers working for [BEAM](https://www.beammath.org/). After graduating, COVID-19 quickly shut down the world and I re-evaluated. Thankfully, I had the insight to look into software engineering bootcamps right before graduating, as I was not staying when I first started with the County). I ended up academically failing out of [App Academy](https://www.appacademy.io/) on week 24 of 24. 
 
 > These were my projects:
 > + 1st Group Project: [Veni, Vidi, Voravi](https://github.com/rsdimatulac/Veni-Vidi-Voravi) with [S.S.](https://github.com/ssmall1), [R.D.](https://github.com/rsdimatulac), and [D.K.](https://github.com/hye-kim)
