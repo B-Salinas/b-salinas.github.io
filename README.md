@@ -1,4 +1,3 @@
-_Last Updated: February 14, 2024_
 <div align="center" justify-content="space-between">
       <div>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" height="100" width="50" alt="python" /> &nbsp;
@@ -19,35 +18,57 @@ _Last Updated: February 14, 2024_
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" height="100" width="50" alt="latex" /> &nbsp;
       </div>
       <div>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" height="100" width="65" alt="express" /> &nbsp;
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original-wordmark.svg" height="100" width="65" alt="flask" /> &nbsp;
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" height="100" width="50" alt="postgresql" /> &nbsp;  
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sequelize/sequelize-original.svg" height="100" width="50" alt="sequelize" /> &nbsp; 
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="100" width="50" alt="AWS" /> &nbsp;
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" height="100" width="50" alt="docker" /> &nbsp;
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original-wordmark.svg" height="100" width="50" alt="heroku" /> &nbsp;
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gatsby/gatsby-original-wordmark.svg" height="100" width="100" alt="gatsby" /> &nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original-wordmark.svg" height="100" width="65" alt="flask" /> &nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" height="100" width="65" alt="express" /> &nbsp;
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" height="100" width="50" alt="postgresql" /> &nbsp;  
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sequelize/sequelize-original.svg" height="100" width="50" alt="sequelize" /> &nbsp;  
       </div>
     </div>
+
+- algorithms, data structures, databases, and large-scale websites
+- worked in global, multi-cultural environments
+- structured and disciplined approach to work with attention to detail
+- able to work with little or no supervision
+- good communication skills (written & oral) and able to communicate impact
+
+Feel free to drop me an [**email**](mailto:b.salinas397@gmail.com) ☻ or reach out on [**linkedin**](https://www.linkedin.com/in/b-salinas/) ☺︎
+
+<div>
+  <p align="center">
+    <a href="https://github.com/B-Salinas/QUBE"> ❑ </a>
+  </p>
+</div>
+
+<!--
 
 - 10 years of mathematics
 - 4 years of full-stack software development
 - 2 years of quality assurance
 - 1.5 years of blockchain development
 
-Feel free to drop me an [**email**](mailto:b.salinas397@gmail.com) ☻ or reach out on [**linkedin**](https://www.linkedin.com/in/b-salinas/) ☺︎
+<p align="center">
+  <a href="#about-me">About Me</a> 
+  · 
+  <a href="#work">Work Experience</a> 
+  · 
+  <a href="#projects">Project List</a> 
+  ·
+  <a href="#edu">Education</a> 
+  · 
+  <a href="https://github.com/B-Salinas/QUBE"> ❑ </a>
+</p>
 
-. <br />
-. <br />
-. <br />
+# About Me
 
-# About Me!
+I'm known to many as simply "B", a childhood nickname that has stuck throughout my professional career.
 
-I'm known to many as simply "B" - a childhood nickname that has stuck throughout my professional career.
+I graduated from St. Edward's University with a B.S. in Mathematics. While I was not the greatest student in school (take a look at my [transcripts](/2019-05-Salinas-UnofficialTranscript.pdf)), I'm excited to finally understand math and its many applications in the software world.
 
-I graduated from St. Edward's University with a B.S. in Mathematics. While I've always loved math theoricially, I was not the greatest when it came down to putting pencil to paper - just take a look at my [transcripts](/2019-05-Salinas-UnofficialTranscript.pdf). 
-
-I was a research and teaching assistant throughout college and spent my summers working for [BEAM](https://www.beammath.org/). After graduating, COVID-19 quickly shut down the world and I re-evaluated. Thankfully, I had the insight to look into software engineering bootcamps right before graduating, as I was not staying when I first started with the County). I ended up academically failing out of [App Academy](https://www.appacademy.io/) on week 24 of 24. 
+I was a research and teaching assistant throughout college and spent my summers working for [BEAM](https://www.beammath.org/). After graduating, I worked with Travis County in Austin, TX as COVID-19 quickly shut down the world. Like many, I re-evaluated. Thankfully, I had the insight to look into software engineering bootcamps my senior year. I ended up academically failing out of [App Academy](https://www.appacademy.io/) on week 24 of 24, I took 10 months to get through the program. 
 
 > These were my projects:
 > + 1st Group Project: [Veni, Vidi, Voravi](https://github.com/rsdimatulac/Veni-Vidi-Voravi) with [S.S.](https://github.com/ssmall1), [R.D.](https://github.com/rsdimatulac), and [D.K.](https://github.com/hye-kim)
@@ -55,9 +76,8 @@ I was a research and teaching assistant throughout college and spent my summers 
 > + 2nd Group Project: [thrifTEE](https://github.com/vmeduri1/thrifTEE) with [V.M.](https://github.com/vmeduri1), [J.C.](https://github.com/Jc-008), and [N.O.](https://github.com/natoh19)
 > + Final/Capstone Solo Project: [YGO Duel Academy Deck Builder](https://github.com/B-Salinas/YGO-Duel-Academy-Deck-Builder)
 
-I learned _a lot_ during those 10-months ☻
+I learned _quite_ a lot during my time ☻
 
-# Experience
 Since then, I've held jobs in:
 + Insurance
 + Finances + Wealth Management
@@ -86,70 +106,11 @@ Here's a short run down of my latest positions.
 
 I'm grateful for every job I've held and what each position has taught me! ☺︎
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-. <br />
-. <br />
-. <br />
-
-still there? <br />
-
 <a href="https://github.com/B-Salinas/QUBE"> ❑ </a>
+
+-->
+
+<footer>
+      <p> Last Updated: 03/06/2024</p>
+      <p> Copyright ©️ 2024 B Salinas | All Rights Reserved | Powered by <a href="https://github.com/"> GitHub </a> </p>
+</footer>
