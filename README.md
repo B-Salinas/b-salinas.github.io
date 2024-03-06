@@ -35,7 +35,7 @@
 - able to work with little or no supervision
 - good communication skills (written & oral) and able to communicate impact
 
-Feel free to drop me an [**email**](mailto:b.salinas397@gmail.com) ☻ or reach out on [**linkedin**](https://www.linkedin.com/in/b-salinas/) ☺︎
+Check out my latest [**resume**](/2024-03-Salinas-FSSE-Resume.pdf)! Or feel free to drop me an [**email**](mailto:b.salinas397@gmail.com) ☻ or reach out on [**linkedin**](https://www.linkedin.com/in/b-salinas/) ☺︎
 
 <div>
   <p align="center">
@@ -44,23 +44,10 @@ Feel free to drop me an [**email**](mailto:b.salinas397@gmail.com) ☻ or reach 
 </div>
 
 <!--
-
 - 10 years of mathematics
 - 4 years of full-stack software development
 - 2 years of quality assurance
 - 1.5 years of blockchain development
-
-<p align="center">
-  <a href="#about-me">About Me</a> 
-  · 
-  <a href="#work">Work Experience</a> 
-  · 
-  <a href="#projects">Project List</a> 
-  ·
-  <a href="#edu">Education</a> 
-  · 
-  <a href="https://github.com/B-Salinas/QUBE"> ❑ </a>
-</p>
 
 # About Me
 
@@ -105,12 +92,9 @@ Here's a short run down of my latest positions.
 > I was hit with both the 2022 and 2023 Layoffs in Tech. That really shook my spirit for a minute.
 
 I'm grateful for every job I've held and what each position has taught me! ☺︎
-
-<a href="https://github.com/B-Salinas/QUBE"> ❑ </a>
-
 -->
 
 <footer>
-      <p> Last Updated: 03/06/2024</p>
-      <p> Copyright ©️ 2024 B Salinas | All Rights Reserved | Powered by <a href="https://github.com/"> GitHub </a> </p>
+  <p> Last Updated: 03/06/2024 </br>
+      Copyright ©️ 2024 B Salinas | All Rights Reserved | Powered by <a href="https://github.com/">GitHub</a> </p>
 </footer>
