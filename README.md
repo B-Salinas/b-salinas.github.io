@@ -37,11 +37,19 @@
 
 Check out my latest <a href="/2024-03-Salinas-FSSE-Resume.pdf" target="_blank"><b>resume</b></a>! Or feel free to drop me an [**email**](mailto:b.salinas397@gmail.com) ☻ or reach out on [**linkedin**](https://www.linkedin.com/in/b-salinas/) ☺︎
 
-<div>
-  <p align="center">
-    <a href="https://github.com/B-Salinas/QUBE"> ❑ </a>
-  </p>
-</div>
+</br>
+
+<footer>
+  <p align="center"> Copyright ©️ 2024 Bianca "B" Salinas - All Rights Reserved | Powered by <a href="https://github.com/">GitHub</a> | Last Updated: 03/07/2024 </p>
+  <p align="center"> <a href="https://github.com/B-Salinas/QUBE"> ❑ </a> </p>
+</footer>
+
+
+
+
+
+
+
 
 <!--
 - 10 years of mathematics
@@ -93,7 +101,3 @@ Here's a short run down of my latest positions.
 
 I'm grateful for every job I've held and what each position has taught me! ☺︎
 -->
-
-<footer>
-  <p align="center"> Copyright ©️ 2024 Bianca "B" Salinas - All Rights Reserved | Powered by <a href="https://github.com/">GitHub</a> | Last Updated: 03/07/2024 </p>
-</footer>
