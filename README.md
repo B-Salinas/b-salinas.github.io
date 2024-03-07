@@ -95,6 +95,5 @@ I'm grateful for every job I've held and what each position has taught me! ☺�
 -->
 
 <footer>
-  <p> Last Updated: 03/06/2024 </p>
-  <p> Copyright ©️ 2024 B Salinas | All Rights Reserved | Powered by <a href="https://github.com/">GitHub</a> </p>
+  <p align="center"> Copyright ©️ 2024 Bianca "B" Salinas - All Rights Reserved | Powered by <a href="https://github.com/">GitHub</a> | Last Updated: 03/07/2024 </p>
 </footer>
