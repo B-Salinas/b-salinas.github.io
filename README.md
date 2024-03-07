@@ -35,7 +35,7 @@
 - able to work with little or no supervision
 - good communication skills (written & oral) and able to communicate impact
 
-Check out my latest [**resume**](/2024-03-Salinas-FSSE-Resume.pdf)! Or feel free to drop me an [**email**](mailto:b.salinas397@gmail.com) ☻ or reach out on [**linkedin**](https://www.linkedin.com/in/b-salinas/) ☺︎
+Check out my latest <a href="/2024-03-Salinas-FSSE-Resume.pdf" target="_blank"><b>resume</b></a>! Or feel free to drop me an [**email**](mailto:b.salinas397@gmail.com) ☻ or reach out on [**linkedin**](https://www.linkedin.com/in/b-salinas/) ☺︎
 
 <div>
   <p align="center">
@@ -95,6 +95,6 @@ I'm grateful for every job I've held and what each position has taught me! ☺�
 -->
 
 <footer>
-  <p> Last Updated: 03/06/2024 </br>
-      Copyright ©️ 2024 B Salinas | All Rights Reserved | Powered by <a href="https://github.com/">GitHub</a> </p>
+  <p> Last Updated: 03/06/2024 </p>
+  <p> Copyright ©️ 2024 B Salinas | All Rights Reserved | Powered by <a href="https://github.com/">GitHub</a> </p>
 </footer>
