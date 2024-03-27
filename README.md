@@ -29,6 +29,8 @@
       </div>
     </div>
 
+<br />
+
 - algorithms, data structures, databases, and large-scale websites
 - worked in global, multi-cultural environments
 - structured and disciplined approach to work with attention to detail
@@ -37,8 +39,10 @@
 
 Check out my latest <a href="/2024-03-Salinas-FSSE-Resume.pdf" target="_blank"><b>resume</b></a>! Or feel free to drop me an [**email**](mailto:b.salinas397@gmail.com) ☻ or reach out on [**linkedin**](https://www.linkedin.com/in/b-salinas/) ☺︎
 
+<br />
+
 <footer>
-  <p align="center"> Copyright ©️ 2024 Bianca "B" Salinas - All Rights Reserved | Powered by <a href="https://github.com/">GitHub</a> | Last Updated: 03/07/2024 </p>
+  <p align="center"> Copyright ©️ 2024 Bianca "B" Salinas - All Rights Reserved | Powered by <a href="https://github.com/">GitHub</a> | Last Updated: 03/27/2024 5:48 AM CST </p>
   <p align="center"> <a href="https://github.com/B-Salinas/QUBE"> ❑ </a> </p>
 </footer>
 
