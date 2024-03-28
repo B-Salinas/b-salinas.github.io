@@ -42,9 +42,6 @@ Check out my latest <a href="/2024-03-Salinas-FSSE-Resume.pdf" target="_blank"><
 <br />
 
 <footer>
-  <p align="center"> </p>
-  <p align="center"> </p>
-  <br />
   <p align="center"> Copyright ©️ 2024 Bianca "B" Salinas &nbsp; | &nbsp; All Rights Reserved. &nbsp; | &nbsp; Last Updated: 03/28/2024 11:04 AM CST &nbsp; | &nbsp; Powered by <a href="https://github.com/">GitHub</a> </p>
   <p align="center"> <a href="https://github.com/B-Salinas/QUBE"> ❑ </a> </p>
 </footer>
