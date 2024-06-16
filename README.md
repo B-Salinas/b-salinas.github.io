@@ -1,3 +1,16 @@
+<p align="center">
+      <a href="/2024-03-Salinas-FSSE-Resume.pdf" target="_blank">Resume</a>
+      &nbsp; · &nbsp;
+      <a href="mailto:b.salinas397@gmail.com">Email</a>
+      &nbsp; · &nbsp;
+      <a href="https://linkedin.com/in/b-salinas">Linkedin</a>  
+      &nbsp; · &nbsp;
+      <a href="https://github.com/B-Salinas/">GitHub</a>
+      &nbsp; · &nbsp;
+      <a href="https://github.com/B-Salinas/github-should-have-a-blog">Blog</a>
+      &nbsp; · &nbsp;
+      <a href="https://github.com/a-salinas">Bonus</a>  
+</p>
 <div align="center" justify-content="space-between">
       <div>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" height="100" width="50" alt="python" /> &nbsp;
@@ -28,19 +41,6 @@
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gatsby/gatsby-original-wordmark.svg" height="100" width="100" alt="gatsby" /> &nbsp;
       </div>
     </div>
-    <p align="center">
-      <a href="/2024-03-Salinas-FSSE-Resume.pdf" target="_blank"> ☺︎ Resume </a>
-      ·
-      <a href="mailto:b.salinas397@gmail.com"> ☻ Email </a>
-      ·
-      <a href="https://linkedin.com/in/b-salinas"> ☺︎ Linkedin </a>  
-      ·
-      <a href="https://github.com/B-Salinas/"> ☻ GitHub </a>
-      ·
-      <a href="https://github.com/B-Salinas/github-should-have-a-blog"> ☺︎ Blog </a>
-      ·
-      <a href="https://github.com/a-salinas"> ☻ Bonus </a>  
-</p>
 
 - algorithms, data structures, databases, and large-scale websites and applications
 - worked in global, multi-cultural environments and small startups
@@ -51,7 +51,7 @@
 <br />
 
 <footer>
-  <p align="center"> Copyright ©️ 2024 Bianca "B" Salinas &nbsp; | &nbsp; All Rights Reserved. &nbsp; | &nbsp; Last Updated: 06/16/2024 4:32 PM CST &nbsp; | &nbsp; Powered by <a href="https://github.com/">GitHub</a> </p>
+  <p align="center"> Copyright ©️ 2024 Bianca "B" Salinas &nbsp; | &nbsp; All Rights Reserved. &nbsp; | &nbsp; Last Updated: 2024-06-16 4:38 PM CST &nbsp; | &nbsp; Powered by <a href="https://github.com/">GitHub</a> </p>
   <p align="center"> <a href="https://github.com/B-Salinas/QUBE"> ❑ </a> </p>
 </footer>
 
