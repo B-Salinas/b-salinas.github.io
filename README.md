@@ -28,21 +28,30 @@
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gatsby/gatsby-original-wordmark.svg" height="100" width="100" alt="gatsby" /> &nbsp;
       </div>
     </div>
+    <p align="center">
+      <a href="/2024-03-Salinas-FSSE-Resume.pdf" target="_blank"> ☺︎ Resume </a>
+      ·
+      <a href="mailto:b.salinas397@gmail.com"> ☻ Email </a>
+      ·
+      <a href="https://linkedin.com/in/b-salinas"> ☺︎ Linkedin </a>  
+      ·
+      <a href="https://github.com/B-Salinas/"> ☻ GitHub </a>
+      ·
+      <a href="https://github.com/B-Salinas/github-should-have-a-blog"> ☺︎ Blog </a>
+      ·
+      <a href="https://github.com/a-salinas"> ☻ Bonus </a>  
+</p>
 
-<br />
-
-- algorithms, data structures, databases, and large-scale websites
-- worked in global, multi-cultural environments
+- algorithms, data structures, databases, and large-scale websites and applications
+- worked in global, multi-cultural environments and small startups
 - structured and disciplined approach to work with attention to detail
-- able to work with little or no supervision
-- good communication skills (written & oral) and able to communicate impact
-
-Check out my latest <a href="/2024-03-Salinas-FSSE-Resume.pdf" target="_blank"><b>resume</b></a>! Or feel free to drop me an [**email**](mailto:b.salinas397@gmail.com) ☻ or reach out on [**linkedin**](https://www.linkedin.com/in/b-salinas/) ☺︎
+- able to work with little or no supervision, but likes guidance when given
+- good communication skills (written & oral) and able to convey impact
 
 <br />
 
 <footer>
-  <p align="center"> Copyright ©️ 2024 Bianca "B" Salinas &nbsp; | &nbsp; All Rights Reserved. &nbsp; | &nbsp; Last Updated: 03/28/2024 11:04 AM CST &nbsp; | &nbsp; Powered by <a href="https://github.com/">GitHub</a> </p>
+  <p align="center"> Copyright ©️ 2024 Bianca "B" Salinas &nbsp; | &nbsp; All Rights Reserved. &nbsp; | &nbsp; Last Updated: 06/16/2024 4:32 PM CST &nbsp; | &nbsp; Powered by <a href="https://github.com/">GitHub</a> </p>
   <p align="center"> <a href="https://github.com/B-Salinas/QUBE"> ❑ </a> </p>
 </footer>
 
