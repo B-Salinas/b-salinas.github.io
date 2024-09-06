@@ -1,13 +1,15 @@
 <p align="center">
-      <a href="/2024-03-Salinas-FSSE-Resume.pdf" target="_blank">Resume</a>
-      &nbsp; · &nbsp;
       <a href="mailto:b.salinas397@gmail.com">Email</a>
       &nbsp; · &nbsp;
-      <a href="https://linkedin.com/in/b-salinas">Linkedin</a>  
+      <a href="/2024-03-Salinas-FSSE-Resume.pdf" target="_blank">Resume</a>
+      &nbsp; · &nbsp;
+      <a href="https://x.com/b9376">X</a>
       &nbsp; · &nbsp;
       <a href="https://github.com/B-Salinas/">GitHub</a>
       &nbsp; · &nbsp;
-      <a href="https://github.com/B-Salinas/github-should-have-a-blog">Blog</a>
+      <a href="https://linkedin.com/in/b-salinas">Linkedin</a>
+      &nbsp; · &nbsp;
+      <a href="https://b-salinas.github.io/" target="_parent">Portfolio</a>
       &nbsp; · &nbsp;
       <a href="https://github.com/a-salinas">Bonus</a>  
 </p>
