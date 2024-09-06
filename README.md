@@ -9,8 +9,6 @@
       &nbsp; · &nbsp;
       <a href="https://linkedin.com/in/b-salinas">Linkedin</a>
       &nbsp; · &nbsp;
-      <a href="https://b-salinas.github.io/" target="_parent">Portfolio</a>
-      &nbsp; · &nbsp;
       <a href="https://github.com/a-salinas">Bonus</a>  
 </p>
 <div align="center" justify-content="space-between">
@@ -53,7 +51,7 @@
 <br />
 
 <footer>
-  <p align="center"> Copyright ©️ 2024 Bianca "B" Salinas &nbsp; | &nbsp; All Rights Reserved. &nbsp; | &nbsp; Last Updated: 2024-06-16 4:38 PM CST &nbsp; | &nbsp; Powered by <a href="https://github.com/">GitHub</a> </p>
+  <p align="center"> Copyright ©️ 2024 Bianca "B" Salinas &nbsp; | &nbsp; All Rights Reserved. &nbsp; | &nbsp; Last Updated: 2024-09-06 7:20 AM CST &nbsp; | &nbsp; Powered by <a href="https://github.com/">GitHub</a> </p>
   <p align="center"> <a href="https://github.com/B-Salinas/QUBE"> ❑ </a> </p>
 </footer>
 
