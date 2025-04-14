@@ -1,15 +1,17 @@
 <p align="center">
-      <a href="mailto:b.salinas397@gmail.com">Email</a>
-      &nbsp; · &nbsp;
       <a href="/2024-03-Salinas-FSSE-Resume.pdf" target="_blank">Resume</a>
       &nbsp; · &nbsp;
       <a href="https://x.com/b9376">X</a>
+      &nbsp; · &nbsp;
+      <a href="mailto:b.salinas397@gmail.com">Email</a>
+      &nbsp; · &nbsp;
+      <a href="https://happybirthday.bearblog.dev/">Subservient</a>
       &nbsp; · &nbsp;
       <a href="https://github.com/B-Salinas/">GitHub</a>
       &nbsp; · &nbsp;
       <a href="https://linkedin.com/in/b-salinas">Linkedin</a>
       &nbsp; · &nbsp;
-      <a href="https://github.com/a-salinas">Bonus</a>  
+      <a href="https://github.com/a-salinas">Brother</a>  
 </p>
 <div align="center" justify-content="space-between">
       <div>
@@ -51,7 +53,7 @@
 <br />
 
 <footer>
-  <p align="center"> Copyright ©️ 2024 Bianca "B" Salinas &nbsp; | &nbsp; All Rights Reserved. &nbsp; | &nbsp; Last Updated: 2024-09-06 7:20 AM CST &nbsp; | &nbsp; Powered by <a href="https://github.com/">GitHub</a> </p>
+  <p align="center"> Copyright ©️ 2025 Bianca "B" Salinas &nbsp; | &nbsp; All Rights Reserved. &nbsp; | &nbsp; Powered by <a href="https://github.com/">GitHub</a> </p>
   <p align="center"> <a href="https://github.com/B-Salinas/QUBE"> ❑ </a> </p>
 </footer>
 
