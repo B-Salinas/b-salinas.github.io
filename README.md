@@ -1,7 +1,7 @@
 <p align="center">
       <a href="/2024-03-Salinas-FSSE-Resume.pdf" target="_blank">Resume</a>
       &nbsp; · &nbsp;
-      <a href="https://x.com/b9376">X</a>
+      <a href="https://x.com/b9376">𝕏</a>
       &nbsp; · &nbsp;
       <a href="mailto:b.salinas397@gmail.com">Email</a>
       &nbsp; · &nbsp;
