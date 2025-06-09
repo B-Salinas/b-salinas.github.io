@@ -10,6 +10,8 @@ document.body.appendChild(renderer.domElement);
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 camera.position.z = 5;
+camera.position.y = 2;
+camera.position.x = 1;
 
 // Create materials for different colors
 const blueMaterial = new THREE.LineBasicMaterial({ color: 0x0000ff });
