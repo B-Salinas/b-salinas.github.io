@@ -1,8 +1,6 @@
-// claude_4D_tesseract_2.js
-// cursor.js
-
 import * as THREE from 'three';
 import { OrbitControls } from 'https://unpkg.com/three@0.156.1/examples/jsm/controls/OrbitControls.js';
+import { ArcballControls } from 'https://unpkg.com/three@0.156.1/examples/jsm/controls/ArcballControls.js';
 
 // Add floating text overlay
 const instructionText = document.createElement('div');
@@ -41,8 +39,11 @@ const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
-const controls = new OrbitControls(camera, renderer.domElement);
-controls.enableDamping = true;
+// const controls = new OrbitControls(camera, renderer.domElement);
+const controls = new ArcballControls(camera, renderer.domElement, scene);
+controls.enableAnimations = true; // Optional: smooth transitions
+controls.setGizmosVisible(false); // Optional: hide the visual gizmo
+
 camera.position.z = 3;
 camera.position.y = 3;
 camera.position.x = 3;
