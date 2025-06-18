@@ -164,12 +164,30 @@ function animate() {
     renderer.render(scene, camera);
 }
 
-// Handle window resize
-window.addEventListener('resize', () => {
-    camera.aspect = window.innerWidth / window.innerHeight;
+function updateRendererSize() {
+    let width = window.innerWidth;
+    let height = window.innerHeight;
+    if (window.visualViewport) {
+        width = window.visualViewport.width;
+        height = window.visualViewport.height;
+    }
+    camera.aspect = width / height;
     camera.updateProjectionMatrix();
-    renderer.setSize(window.innerWidth, window.innerHeight);
-});
+    renderer.setSize(width, height, false);
+}
+
+// Initial sizing
+updateRendererSize();
+
+// Handle window resize
+window.addEventListener('resize', updateRendererSize);
+// Handle orientation change
+window.addEventListener('orientationchange', updateRendererSize);
+// Handle visual viewport resize (for mobile zoom, etc.)
+if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', updateRendererSize);
+    window.visualViewport.addEventListener('scroll', updateRendererSize);
+}
 
 // Start animation
 animate();
