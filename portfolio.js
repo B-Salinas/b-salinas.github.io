@@ -41,6 +41,15 @@ renderer.setPixelRatio(window.devicePixelRatio);
 document.body.appendChild(renderer.domElement);
 
 const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+controls.dampingFactor = 0.05;
+controls.screenSpacePanning = true;
+controls.minDistance = 1;
+controls.maxDistance = 100;
+controls.minPolarAngle = 0;
+controls.maxPolarAngle = Math.PI;
+controls.minAzimuthAngle = -Infinity;
+controls.maxAzimuthAngle = Infinity;
 
 camera.position.z = 3;
 camera.position.y = 3;
