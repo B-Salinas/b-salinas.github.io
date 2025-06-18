@@ -40,10 +40,7 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
 document.body.appendChild(renderer.domElement);
 
-// const controls = new OrbitControls(camera, renderer.domElement);
-const controls = new ArcballControls(camera, renderer.domElement, scene);
-controls.enableAnimations = true; // Optional: smooth transitions
-controls.setGizmosVisible(false); // Optional: hide the visual gizmo
+const controls = new OrbitControls(camera, renderer.domElement);
 
 camera.position.z = 3;
 camera.position.y = 3;
