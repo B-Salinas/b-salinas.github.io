@@ -57,6 +57,7 @@ document.body.appendChild(renderer.domElement);
 const controls = new ArcballControls(camera, renderer.domElement, scene);
 controls.enableAnimations = true; // Optional: smooth transitions
 controls.setGizmosVisible(false); // Optional: hide the visual gizmo
+controls.adjustNearFar = true; // Try to fix mobile zoom disappearing issue
 // TODO: Investigate ArcballControls and mobile/zoom disappearing issue
 
 camera.position.z = 3;
