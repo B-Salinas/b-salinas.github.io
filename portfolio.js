@@ -1,5 +1,39 @@
+// claude_4D_tesseract_2.js
+// cursor.js
+
 import * as THREE from 'three';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+
+// Add floating text overlay
+const instructionText = document.createElement('div');
+instructionText.innerHTML = 'Use mouse to move around • Drag to rotate • Scroll to zoom';
+instructionText.style.cssText = `
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+    pointer-events: none;
+    z-index: 1000;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    animation: fadeInOut 4s ease-in-out infinite;
+`;
+
+// Add CSS animation for subtle pulsing effect
+const style = document.createElement('style');
+style.textContent = `
+    @keyframes fadeInOut {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 0.3; }
+    }
+`;
+document.head.appendChild(style);
+document.body.appendChild(instructionText);
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -14,9 +48,14 @@ camera.position.y = 3;
 camera.position.x = 3;
 
 // Create materials for different colors
+const whiteMaterial = new THREE.LineBasicMaterial({ color: 0x00ff00 });
 const blueMaterial = new THREE.LineBasicMaterial({ color: 0x0000ff });
 const redMaterial = new THREE.LineBasicMaterial({ color: 0xff0000 });
-const greenMaterial = new THREE.LineBasicMaterial({ color: 0x00ff00 });
+
+// green 0x00ff00
+// blue 0x0000ff
+// red 0xff0000
+
 
 // Create 4D vertices of a tesseract
 const vertices4D = [
@@ -36,19 +75,19 @@ const edges = [
 ];
 
 // Function to project 4D to 3D with proper rotation
-function project4Dto3D(point4D, time) {
+function project4Dto3D(point4D, time, speedMultiplier = 1) {
     // Apply 4D rotations
     let x = point4D[0], y = point4D[1], z = point4D[2], w = point4D[3];
     
     // XY rotation
-    const xy_rotation = time * 0.0005;
+    const xy_rotation = time * 0.0005 * speedMultiplier;
     let temp_x = x * Math.cos(xy_rotation) - y * Math.sin(xy_rotation);
     let temp_y = x * Math.sin(xy_rotation) + y * Math.cos(xy_rotation);
     x = temp_x;
     y = temp_y;
     
     // ZW rotation
-    const zw_rotation = time * 0.0007;
+    const zw_rotation = time * 0.0007 * speedMultiplier;
     temp_x = z * Math.cos(zw_rotation) - w * Math.sin(zw_rotation);
     let temp_w = z * Math.sin(zw_rotation) + w * Math.cos(zw_rotation);
     z = temp_x;
@@ -65,7 +104,16 @@ function project4Dto3D(point4D, time) {
     );
 }
 
-let outerLines, innerLines, connectingLines;
+// Animation variables with different speeds for each tesseract
+const baseRotationSpeed = 1;
+const speedMultipliers = [1, 0.9876, 1.0124]; // Extremely close speeds for very gradual drift
+const positionOffsets = [
+    new THREE.Vector3(0, 0, 0),
+    new THREE.Vector3(0.1, 0.1, 0.1),
+    new THREE.Vector3(-0.1, -0.1, -0.1)
+];
+
+let whiteTesseractLines, blueTesseractLines, redTesseractLines;
 
 function animate() {
     requestAnimationFrame(animate);
@@ -73,47 +121,43 @@ function animate() {
     const time = performance.now();
     
     // Remove old lines
-    if(outerLines) scene.remove(outerLines);
-    if(innerLines) scene.remove(innerLines);
-    if(connectingLines) scene.remove(connectingLines);
+    if(whiteTesseractLines) scene.remove(whiteTesseractLines);
+    if(blueTesseractLines) scene.remove(blueTesseractLines);
+    if(redTesseractLines) scene.remove(redTesseractLines);
     
-    // Create new vertices and edges
-    const outerPoints = [];
-    const innerPoints = [];
-    const connectingPoints = [];
+    // Create tesseracts with different speeds
+    const tesseractConfigs = [
+        { material: whiteMaterial, speedMultiplier: speedMultipliers[0], positionOffset: positionOffsets[0] },
+        { material: blueMaterial, speedMultiplier: speedMultipliers[1], positionOffset: positionOffsets[1] },
+        { material: redMaterial, speedMultiplier: speedMultipliers[2], positionOffset: positionOffsets[2] }
+    ];
     
-    // Project all vertices to 3D
-    const vertices3D = vertices4D.map(v => project4Dto3D(v, time));
+    const allLines = [];
     
-    // Create edges
-    edges.forEach(edge => {
-        const start = vertices3D[edge[0]];
-        const end = vertices3D[edge[1]];
+    tesseractConfigs.forEach((config, index) => {
+        // Project all vertices to 3D with this tesseract's speed
+        const vertices3D = vertices4D.map(v => project4Dto3D(v, time, config.speedMultiplier));
         
-        // Determine which cube the edge belongs to
-        if(edge[0] < 8 && edge[1] < 8) {
-            outerPoints.push(start, end);
-        } else if(edge[0] >= 8 && edge[1] >= 8) {
-            innerPoints.push(start, end);
-        } else {
-            connectingPoints.push(start, end);
-        }
+        // Create all edges for this tesseract
+        const points = [];
+        edges.forEach(edge => {
+            const start = vertices3D[edge[0]].clone().add(config.positionOffset);
+            const end = vertices3D[edge[1]].clone().add(config.positionOffset);
+            points.push(start, end);
+        });
+        
+        // Create geometry and lines for this tesseract
+        const geometry = new THREE.BufferGeometry().setFromPoints(points);
+        const lines = new THREE.LineSegments(geometry, config.material);
+        allLines.push(lines);
     });
     
-    // Create geometries
-    const outerGeometry = new THREE.BufferGeometry().setFromPoints(outerPoints);
-    const innerGeometry = new THREE.BufferGeometry().setFromPoints(innerPoints);
-    const connectingGeometry = new THREE.BufferGeometry().setFromPoints(connectingPoints);
+    // Assign to variables and add to scene
+    [whiteTesseractLines, blueTesseractLines, redTesseractLines] = allLines;
     
-    // Create lines
-    outerLines = new THREE.LineSegments(outerGeometry, blueMaterial);
-    innerLines = new THREE.LineSegments(innerGeometry, redMaterial);
-    connectingLines = new THREE.LineSegments(connectingGeometry, greenMaterial);
-    
-    // Add to scene
-    scene.add(outerLines);
-    scene.add(innerLines);
-    scene.add(connectingLines);
+    scene.add(whiteTesseractLines);
+    scene.add(blueTesseractLines);
+    scene.add(redTesseractLines);
     
     controls.update();
     renderer.render(scene, camera);
