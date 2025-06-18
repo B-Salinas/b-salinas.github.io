@@ -40,17 +40,24 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
 document.body.appendChild(renderer.domElement);
 
-const controls = new OrbitControls(camera, renderer.domElement);
-controls.enableDamping = false;
-controls.dampingFactor = 0.05;
-controls.screenSpacePanning = true;
-controls.minDistance = 1;
-controls.maxDistance = 100;
-controls.minPolarAngle = 0;
-controls.maxPolarAngle = Math.PI;
-controls.minAzimuthAngle = -Infinity;
-controls.maxAzimuthAngle = Infinity;
-controls.rotateSpeed = 2.0;
+// ORBIT CONTROLS CONFIG (for reference, do not delete)
+// const controls = new OrbitControls(camera, renderer.domElement);
+// controls.enableDamping = false;
+// controls.dampingFactor = 0.05;
+// controls.screenSpacePanning = true;
+// controls.minDistance = 1;
+// controls.maxDistance = 100;
+// controls.minPolarAngle = 0;
+// controls.maxPolarAngle = Math.PI;
+// controls.minAzimuthAngle = -Infinity;
+// controls.maxAzimuthAngle = Infinity;
+// controls.rotateSpeed = 2.0;
+
+// Restore ArcballControls
+const controls = new ArcballControls(camera, renderer.domElement, scene);
+controls.enableAnimations = true; // Optional: smooth transitions
+controls.setGizmosVisible(false); // Optional: hide the visual gizmo
+// TODO: Investigate ArcballControls and mobile/zoom disappearing issue
 
 camera.position.z = 3;
 camera.position.y = 3;
@@ -64,7 +71,6 @@ const redMaterial = new THREE.LineBasicMaterial({ color: 0xff0000 });
 // green 0x00ff00
 // blue 0x0000ff
 // red 0xff0000
-
 
 // Create 4D vertices of a tesseract
 const vertices4D = [
