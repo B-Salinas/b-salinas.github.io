@@ -63,6 +63,8 @@ camera.position.z = 3;
 camera.position.y = 3;
 camera.position.x = 3;
 
+controls.setCamera(camera);
+
 // Create materials for different colors
 const whiteMaterial = new THREE.LineBasicMaterial({ color: 0x00ff00 });
 const blueMaterial = new THREE.LineBasicMaterial({ color: 0x0000ff });
