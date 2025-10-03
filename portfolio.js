@@ -73,8 +73,12 @@ const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
-// const controls = new OrbitControls(camera, renderer.domElement);
-const controls = new ArcballControls(camera, renderer.domElement, scene);
+let controls;
+if (/Mobi|Android/i.test(navigator.userAgent)) {
+    controls = new OrbitControls(camera, renderer.domElement);
+} else {
+    controls = new ArcballControls(camera, renderer.domElement, scene);
+}
 controls.enableAnimations = true; // Optional: smooth transitions
 controls.setGizmosVisible(false); // Optional: hide the visual gizmo
 
