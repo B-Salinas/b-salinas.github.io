@@ -4,9 +4,13 @@
 // import * as THREE from 'three';
 // import { OrbitControls } from 'https://unpkg.com/three@0.156.1/examples/jsm/controls/OrbitControls.js';
 
-import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import { ArcballControls } from 'three/examples/jsm/controls/ArcballControls.js';
+// import * as THREE from 'three';
+// import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+// import { ArcballControls } from 'three/examples/jsm/controls/ArcballControls.js';
+
+import * as THREE from 'https://unpkg.com/three@0.156.1/build/three.module.js';
+import { OrbitControls } from 'https://unpkg.com/three@0.156.1/examples/jsm/controls/OrbitControls.js';
+import { ArcballControls } from 'https://unpkg.com/three@0.156.1/examples/jsm/controls/ArcballControls.js';
 
 // Add floating text overlay
 const instructionText = document.createElement('div');
