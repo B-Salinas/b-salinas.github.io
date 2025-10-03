@@ -1,6 +1,3 @@
-// don't change the import statements
-// this file is used before deploying to prod 
-
 import * as THREE from 'https://unpkg.com/three@0.156.1/build/three.module.js';
 import { OrbitControls } from 'https://unpkg.com/three@0.156.1/examples/jsm/controls/OrbitControls.js';
 import { ArcballControls } from 'https://unpkg.com/three@0.156.1/examples/jsm/controls/ArcballControls.js';
