@@ -1,13 +1,48 @@
+// don't change the import statements
+// this file is used before deploying to prod 
+
+// import * as THREE from 'three';
+// import { OrbitControls } from 'https://unpkg.com/three@0.156.1/examples/jsm/controls/OrbitControls.js';
+
 import * as THREE from 'three';
-import { OrbitControls } from 'https://unpkg.com/three@0.156.1/examples/jsm/controls/OrbitControls.js';
-import { ArcballControls } from 'https://unpkg.com/three@0.156.1/examples/jsm/controls/ArcballControls.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { ArcballControls } from 'three/examples/jsm/controls/ArcballControls.js';
 
 // Add floating text overlay
 const instructionText = document.createElement('div');
 instructionText.innerHTML = 'Use mouse to move around • Drag to rotate • Scroll to zoom';
 instructionText.style.cssText = `
     position: fixed;
-    bottom: 50px;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+    pointer-events: none;
+    z-index: 1000;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    animation: fadeInOut 4s ease-in-out infinite;
+`;
+
+// Add CSS animation for subtle pulsing effect
+const instructionStyle = document.createElement('style');
+instructionStyle.textContent = `
+    @keyframes fadeInOut {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 0.3; }
+    }
+`;
+
+// Add floating text overlay
+const birthdayText = document.createElement('div');
+birthdayText.innerHTML = 'Happy Birthday';
+birthdayText.style.cssText = `
+    position: fixed;
+    bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
     color: rgba(255, 255, 255, 0.6);
@@ -26,45 +61,29 @@ instructionText.style.cssText = `
 const style = document.createElement('style');
 style.textContent = `
     @keyframes fadeInOut {
-        0%, 100% { opacity: 0.6; }
-        50% { opacity: 0.3; }
+        0%, 100% { opacity: 0.9; }
+        50% { opacity: 0.1; }
     }
 `;
 document.head.appendChild(style);
+document.head.appendChild(instructionStyle);
+document.body.appendChild(birthdayText);
 document.body.appendChild(instructionText);
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
-renderer.setPixelRatio(window.devicePixelRatio);
 document.body.appendChild(renderer.domElement);
 
-// ORBIT CONTROLS CONFIG (for reference, do not delete)
 // const controls = new OrbitControls(camera, renderer.domElement);
-// controls.enableDamping = false;
-// controls.dampingFactor = 0.05;
-// controls.screenSpacePanning = true;
-// controls.minDistance = 1;
-// controls.maxDistance = 100;
-// controls.minPolarAngle = 0;
-// controls.maxPolarAngle = Math.PI;
-// controls.minAzimuthAngle = -Infinity;
-// controls.maxAzimuthAngle = Infinity;
-// controls.rotateSpeed = 2.0;
-
-// Restore ArcballControls
 const controls = new ArcballControls(camera, renderer.domElement, scene);
 controls.enableAnimations = true; // Optional: smooth transitions
 controls.setGizmosVisible(false); // Optional: hide the visual gizmo
-controls.adjustNearFar = true; // Try to fix mobile zoom disappearing issue
-// TODO: Investigate ArcballControls and mobile/zoom disappearing issue
 
 camera.position.z = 3;
 camera.position.y = 3;
 camera.position.x = 3;
-
-controls.setCamera(camera);
 
 // Create materials for different colors
 const whiteMaterial = new THREE.LineBasicMaterial({ color: 0x00ff00 });
@@ -74,6 +93,21 @@ const redMaterial = new THREE.LineBasicMaterial({ color: 0xff0000 });
 // green 0x00ff00
 // blue 0x0000ff
 // red 0xff0000
+
+// Create a small white cube at the center
+// const centerCubeSize = 0.125; // adjust size as you like
+// const centerCubeGeometry = new THREE.BoxGeometry(centerCubeSize, centerCubeSize, centerCubeSize);
+// const centerCubeMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff, wireframe: true });
+// const centerCube = new THREE.Mesh(centerCubeGeometry, centerCubeMaterial);
+// scene.add(centerCube);
+
+// Create a small white cube showing only edges (no diagonals)
+const centerCubeSize = 0.125; 
+const centerCubeGeometry = new THREE.BoxGeometry(centerCubeSize, centerCubeSize, centerCubeSize);
+const centerCubeEdges = new THREE.EdgesGeometry(centerCubeGeometry);
+const centerCubeMaterial = new THREE.LineBasicMaterial({ color: 0xffffff, transparent: true, opacity: 0.7 });
+const centerCube = new THREE.LineSegments(centerCubeEdges, centerCubeMaterial);
+scene.add(centerCube);
 
 // Create 4D vertices of a tesseract
 const vertices4D = [
@@ -125,10 +159,12 @@ function project4Dto3D(point4D, time, speedMultiplier = 1) {
 // Animation variables with different speeds for each tesseract
 const baseRotationSpeed = 1;
 const speedMultipliers = [1, 0.9876, 1.0124]; // Extremely close speeds for very gradual drift
+// const speedMultipliers = [1, 0.998, 1.002]; // Extremely close speeds for very gradual drift
+
 const positionOffsets = [
     new THREE.Vector3(0, 0, 0),
-    new THREE.Vector3(0.1, 0.1, 0.1),
-    new THREE.Vector3(-0.1, -0.1, -0.1)
+    new THREE.Vector3(0.01, 0.01, 0.01),
+    new THREE.Vector3(-0.01, -0.01, -0.01)
 ];
 
 let whiteTesseractLines, blueTesseractLines, redTesseractLines;
@@ -137,6 +173,14 @@ function animate() {
     requestAnimationFrame(animate);
     
     const time = performance.now();
+
+    // Animate the cube
+    centerCube.rotation.x += 0.025;
+    centerCube.rotation.y += 0.025;
+
+    // Pulse the cube like the text
+    const pulseSpeed = 0.0025; // adjust for faster/slower pulse
+    centerCubeMaterial.opacity = 0.5 + 0.5 * Math.sin(performance.now() * pulseSpeed);
     
     // Remove old lines
     if(whiteTesseractLines) scene.remove(whiteTesseractLines);
@@ -181,31 +225,12 @@ function animate() {
     renderer.render(scene, camera);
 }
 
-function updateRendererSize() {
-    let width = window.innerWidth;
-    let height = window.innerHeight;
-    if (window.visualViewport) {
-        width = window.visualViewport.width;
-        height = window.visualViewport.height;
-    }
-    camera.aspect = width / height;
-    camera.updateProjectionMatrix();
-    renderer.setSize(width, height, false);
-    renderer.setPixelRatio(window.devicePixelRatio);
-}
-
-// Initial sizing
-updateRendererSize();
-
 // Handle window resize
-window.addEventListener('resize', updateRendererSize);
-// Handle orientation change
-window.addEventListener('orientationchange', updateRendererSize);
-// Handle visual viewport resize (for mobile zoom, etc.)
-if (window.visualViewport) {
-    window.visualViewport.addEventListener('resize', updateRendererSize);
-    window.visualViewport.addEventListener('scroll', updateRendererSize);
-}
+window.addEventListener('resize', () => {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+});
 
 // Start animation
 animate();
