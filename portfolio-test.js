@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-// import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { ArcballControls } from 'three/addons/controls/ArcballControls.js';
 
 // Add floating text overlay
@@ -73,9 +73,24 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.domElement.style.touchAction = "none";
 document.body.appendChild(renderer.domElement);
 
-const controls = new ArcballControls(camera, renderer.domElement, scene);
-controls.enableAnimations = true; // Optional: smooth transitions
-controls.setGizmosVisible(false); // Optional: hide the visual gizmo
+const isTouchDevice = window.matchMedia('(pointer: coarse)').matches || 'ontouchstart' in window;
+
+const controls = isTouchDevice
+    ? new OrbitControls(camera, renderer.domElement)
+    : new ArcballControls(camera, renderer.domElement, scene);
+
+if (controls instanceof ArcballControls) {
+    controls.enableAnimations = true; // Optional: smooth transitions
+    controls.setGizmosVisible(false); // Optional: hide the visual gizmo
+} else {
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.08;
+    controls.rotateSpeed = 0.8;
+    controls.zoomSpeed = 0.9;
+    controls.minDistance = 2;
+    controls.maxDistance = 12;
+    controls.target.set(0, 0, 0);
+}
 
 camera.position.z = 3;
 camera.position.y = 3;
