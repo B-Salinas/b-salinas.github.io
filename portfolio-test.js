@@ -81,6 +81,29 @@ camera.position.z = 3;
 camera.position.y = 3;
 camera.position.x = 3;
 
+
+const minCameraDistance = 2;
+const maxCameraDistance = 12;
+
+function clampCameraDistance() {
+    const fallbackTarget = new THREE.Vector3(0, 0, 0);
+    const target = controls.target ? controls.target : fallbackTarget;
+    const offset = camera.position.clone().sub(target);
+    const distance = offset.length();
+
+    if (distance === 0) {
+        camera.position.set(target.x, target.y, target.z + minCameraDistance);
+        return;
+    }
+
+    if (distance < minCameraDistance) {
+        offset.setLength(minCameraDistance);
+        camera.position.copy(target).add(offset);
+    } else if (distance > maxCameraDistance) {
+        offset.setLength(maxCameraDistance);
+        camera.position.copy(target).add(offset);
+    }
+}
 // Create materials for different colors
 const whiteMaterial = new THREE.LineBasicMaterial({ color: 0x00ff00 });
 const blueMaterial = new THREE.LineBasicMaterial({ color: 0x0000ff });
@@ -218,6 +241,7 @@ function animate() {
     scene.add(redTesseractLines);
     
     controls.update();
+    clampCameraDistance();
     renderer.render(scene, camera);
 }
 
