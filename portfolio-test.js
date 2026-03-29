@@ -2,13 +2,41 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { ArcballControls } from 'three/addons/controls/ArcballControls.js';
 
+// Add floating text overlay
+const birthdayText = document.createElement('div');
+birthdayText.innerHTML = 'Happy Birthday!';
+birthdayText.style.cssText = `
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+    pointer-events: none;
+    z-index: 1000;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    animation: fadeInOut 4s ease-in-out infinite;
+`;
+
+// Add CSS animation for subtle pulsing effect
+const style = document.createElement('style');
+style.textContent = `
+    @keyframes fadeInOut {
+        0%, 100% { opacity: 0.9; }
+        50% { opacity: 0.1; }
+    }
+`;
 
 // Add floating text overlay
 const instructionText = document.createElement('div');
 instructionText.innerHTML = 'Use mouse to move around • Drag to rotate • Scroll to zoom';
 instructionText.style.cssText = `
     position: fixed;
-    top: 100px;
+    bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
     color: rgba(255, 255, 255, 0.6);
@@ -32,38 +60,11 @@ instructionStyle.textContent = `
     }
 `;
 
-// Add floating text overlay
-const birthdayText = document.createElement('div');
-birthdayText.innerHTML = 'Happy Birthday';
-birthdayText.style.cssText = `
-    position: fixed;
-    bottom: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: rgba(255, 255, 255, 0.6);
-    font-family: 'Arial', sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    text-align: center;
-    pointer-events: none;
-    z-index: 1000;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-    animation: fadeInOut 4s ease-in-out infinite;
-`;
-
-// Add CSS animation for subtle pulsing effect
-const style = document.createElement('style');
-style.textContent = `
-    @keyframes fadeInOut {
-        0%, 100% { opacity: 0.9; }
-        50% { opacity: 0.1; }
-    }
-`;
-document.head.appendChild(style);
-document.head.appendChild(instructionStyle);
 document.body.appendChild(birthdayText);
 document.body.appendChild(instructionText);
+document.head.appendChild(style);
+document.head.appendChild(instructionStyle);
+
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
