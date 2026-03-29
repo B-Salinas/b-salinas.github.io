@@ -1,6 +1,6 @@
-import * as THREE from 'https://unpkg.com/three@0.156.1/build/three.module.js';
-// import { OrbitControls } from 'https://unpkg.com/three@0.156.1/examples/jsm/controls/OrbitControls.js';
-import { ArcballControls } from 'https://unpkg.com/three@0.156.1/examples/jsm/controls/ArcballControls.js';
+import * as THREE from 'three';
+// import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { ArcballControls } from 'three/addons/controls/ArcballControls.js';
 
 
 // Add floating text overlay
@@ -69,6 +69,7 @@ const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.domElement.style.touchAction = "none";
 document.body.appendChild(renderer.domElement);
 
 const controls = new ArcballControls(camera, renderer.domElement, scene);
@@ -79,6 +80,29 @@ camera.position.z = 3;
 camera.position.y = 3;
 camera.position.x = 3;
 
+
+const minCameraDistance = 2;
+const maxCameraDistance = 12;
+
+function clampCameraDistance() {
+    const fallbackTarget = new THREE.Vector3(0, 0, 0);
+    const target = controls.target ? controls.target : fallbackTarget;
+    const offset = camera.position.clone().sub(target);
+    const distance = offset.length();
+
+    if (distance === 0) {
+        camera.position.set(target.x, target.y, target.z + minCameraDistance);
+        return;
+    }
+
+    if (distance < minCameraDistance) {
+        offset.setLength(minCameraDistance);
+        camera.position.copy(target).add(offset);
+    } else if (distance > maxCameraDistance) {
+        offset.setLength(maxCameraDistance);
+        camera.position.copy(target).add(offset);
+    }
+}
 // Create materials for different colors
 const whiteMaterial = new THREE.LineBasicMaterial({ color: 0x00ff00 });
 const blueMaterial = new THREE.LineBasicMaterial({ color: 0x0000ff });
@@ -216,6 +240,7 @@ function animate() {
     scene.add(redTesseractLines);
     
     controls.update();
+    clampCameraDistance();
     renderer.render(scene, camera);
 }
 
